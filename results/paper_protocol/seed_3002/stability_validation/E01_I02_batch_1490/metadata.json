@@ -1,0 +1,16 @@
+{
+    "experiment": "stability_validation",
+    "source_batch": 1490,
+    "end_batch": 1590,
+    "seed": 3002,
+    "eta": 0.1,
+    "weights_frozen": true,
+    "valid_windows": 8,
+    "final_three_windows_valid": true,
+    "mean_E_Hz": 0.9221737499999999,
+    "mean_I_Hz": 1.9520649999999997,
+    "threshold_drift_E": -0.3115425000000158,
+    "threshold_drift_I": -0.19174000000001,
+    "last_50_threshold_drift_E": -0.11333000000000482,
+    "last_50_threshold_drift_I": 0.005929999999999325
+}

@@ -1,0 +1,7 @@
+condition,resolution,error<0.08,error<0.1,error<0.12,error<0.15
+"Track A, A_d = 0.1 (original)",160x160,241,276,301,331
+"Track A, A_d = 0.1 (original)",16x16,208,260,285,319
+"Track A, A_d = 2.0",160x160,256,304,325,339
+"Track A, A_d = 2.0",16x16,221,277,312,335
+"Track B, A_d = 0.1 (converged calibration)",160x160,250,294,330,345
+"Track B, A_d = 0.1 (converged calibration)",16x16,200,277,308,337

@@ -1,0 +1,14 @@
+{
+    "experiment": "converged_calibration_E05_I10_training",
+    "network_seed": 3002,
+    "threshold_source": "results\\paper_protocol\\seed_3002\\extended_calibration\\E05_I10_eta_0.10\\calibrated_thresholds.npz",
+    "parameterization": "paper",
+    "condition": "E05_I10",
+    "batch_size": 100,
+    "training_seed": 303002,
+    "learning_schedule": "overall_batch_100_plus_training_batch",
+    "calibration_batches": 300,
+    "triplet_depression": 0.25,
+    "target_E_Hz": 5.0,
+    "target_I_Hz": 10.0
+}

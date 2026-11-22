@@ -1,0 +1,13 @@
+{
+    "experiment": "full_paper_synaptic_training",
+    "track": "A",
+    "network_seed": 3002,
+    "threshold_source": "results\\paper_protocol\\seed_3002\\calibration\\E01_I02\\calibrated_thresholds.npz",
+    "parameterization": "paper",
+    "condition": "E01_I02",
+    "batch_size": 100,
+    "training_seed": 303002,
+    "learning_schedule": "overall_batch_100_plus_training_batch",
+    "calibration_batches": 100,
+    "triplet_depression": 0.05
+}

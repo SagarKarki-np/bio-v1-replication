@@ -1,0 +1,43 @@
+{
+    "experiment": "full_paper_replication",
+    "stage": "independent_initialization",
+    "seed": 3002,
+    "weights_file": "weights.npz",
+    "weights_sha256": "2cced7b60ac45dd05ff256cf4b476ce21b805160ff2bdf75f4318f157d7299ac",
+    "numpy_version": "2.5.1",
+    "self_connections_removed": true,
+    "matrix_shapes": {
+        "W_LGN_E": [
+            400,
+            512
+        ],
+        "W_LGN_I": [
+            100,
+            512
+        ],
+        "W_E_E": [
+            400,
+            400
+        ],
+        "W_E_I": [
+            100,
+            400
+        ],
+        "W_I_I": [
+            100,
+            100
+        ],
+        "W_I_E": [
+            400,
+            100
+        ]
+    },
+    "initial_L1_limits": {
+        "W_LGN_E": 100,
+        "W_LGN_I": 80,
+        "W_E_E": 10,
+        "W_E_I": 240,
+        "W_I_I": 120,
+        "W_I_E": 120
+    }
+}

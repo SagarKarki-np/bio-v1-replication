@@ -1,0 +1,21 @@
+{
+    "experiment": "figure10_synaptic_training",
+    "condition": "E20_I40",
+    "parameterization": "matlab_demo",
+    "target_E_Hz": 20.0,
+    "target_I_Hz": 40.0,
+    "calibration_batches": 100,
+    "planned_learning_batches": 1100,
+    "batch_size": 100,
+    "seed": 42,
+    "triplet_depression": 20.0,
+    "learning_rate_multipliers": {
+        "LGN_E": 0.1,
+        "E_E": 0.010000000000000002,
+        "LGN_I": 1.0,
+        "E_I": 1.0,
+        "I_E": 1.0,
+        "I_I": 1.0
+    },
+    "learning_rate_assumption": "Only LGN_E and E_E are target-scaled; remaining pathways retain baseline rates."
+}

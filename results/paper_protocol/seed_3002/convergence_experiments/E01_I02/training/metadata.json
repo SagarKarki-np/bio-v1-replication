@@ -1,0 +1,14 @@
+{
+    "experiment": "figure10_paper_firing_rate_sweep",
+    "network_seed": 3002,
+    "threshold_source": "results\\paper_protocol\\seed_3002\\extended_calibration\\E01_I02_auto_convergence\\calibrated_thresholds.npz",
+    "parameterization": "paper",
+    "condition": "E01_I02",
+    "batch_size": 100,
+    "training_seed": 303002,
+    "learning_schedule": "overall_batch_100_plus_training_batch",
+    "calibration_batches": 1490,
+    "triplet_depression": 0.05,
+    "target_E_Hz": 1.0,
+    "target_I_Hz": 2.0
+}

@@ -1,0 +1,14 @@
+{
+    "experiment": "eta_sensitivity",
+    "network_seed": 3002,
+    "calibration_seed": 103002,
+    "eta_E": 0.1,
+    "eta_I": 0.1,
+    "batches": 100,
+    "batch_size": 100,
+    "target_E_Hz": 2.0,
+    "target_I_Hz": 4.0,
+    "update_rule": "count",
+    "weights_path": "results\\paper_protocol\\seed_3002\\initialization\\weights.npz",
+    "synaptic_learning": false
+}

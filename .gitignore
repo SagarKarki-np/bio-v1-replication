@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.bak
+*.log
+.venv/
+# large generated files (checkpoints, response archives, raw/processed images)
+*.npz
+*.npy
+data/paper_van_hateren/raw/
+data/paper_van_hateren/processed/
+manuscript_upload*/

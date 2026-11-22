@@ -1,0 +1,21 @@
+{
+    "experiment": "figure10_calibration_pilot",
+    "seed": 42,
+    "batches": 3,
+    "batch_size": 8,
+    "conditions": {
+        "E02_I04": [
+            2.0,
+            4.0
+        ],
+        "E05_I10": [
+            5.0,
+            10.0
+        ]
+    },
+    "initial_threshold": 10.0,
+    "synaptic_learning": false,
+    "initial_weights": "results\\untrained\\batch_001\\weights.npz",
+    "matching": "Same LGN spikes and RNG state for both conditions within each batch",
+    "note": "Technical pilot only. Not a full Figure 10 replication."
+}

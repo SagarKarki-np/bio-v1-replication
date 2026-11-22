@@ -1,0 +1,13 @@
+{
+    "experiment": "extended_calibration",
+    "network_seed": 3002,
+    "eta": 0.1,
+    "initial_batch": 100,
+    "final_batch": 140,
+    "maximum_batch": 3000,
+    "update_rule": "count",
+    "weights_frozen": true,
+    "continuation_random_seed": 203502,
+    "exact_original_RNG_continuation": false,
+    "converged": true
+}

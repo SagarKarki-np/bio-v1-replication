@@ -1,0 +1,20 @@
+{
+    "experiment": "figure10_full_calibration",
+    "parameterization": "matlab_demo",
+    "target_E_Hz": 20.0,
+    "target_I_Hz": 40.0,
+    "batches": 100,
+    "batch_size": 100,
+    "seed": 42,
+    "eta_E": 1.0,
+    "eta_I": 1.0,
+    "weights_path": "results\\untrained\\batch_001\\weights.npz",
+    "dt": 0.001,
+    "n_steps": 400,
+    "noise_std": 1.0,
+    "initial_threshold_E": 10.0,
+    "initial_threshold_I": 10.0,
+    "synaptic_learning": false,
+    "triplet_depression_configured": 20.0,
+    "note": "Triplet depression is metadata only. No STDP occurs during calibration."
+}

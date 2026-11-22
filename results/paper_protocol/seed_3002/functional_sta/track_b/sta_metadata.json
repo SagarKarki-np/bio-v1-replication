@@ -1,0 +1,13 @@
+{
+    "track": "B",
+    "network_seed": 3002,
+    "training_seed": 303002,
+    "training_checkpoint": "results\\paper_protocol\\seed_3002\\synaptic_training\\track_b\\checkpoints\\batch_1100.npz",
+    "completed_learning_batches": 1100,
+    "sta_seed": 2041,
+    "sta_batches": 500,
+    "sta_batch_size": 20,
+    "sta_stimuli": 10000,
+    "analysis": "functional_spike_triggered_average",
+    "plasticity_enabled": false
+}
