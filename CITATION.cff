@@ -1,0 +1,84 @@
+# This CITATION.cff file was written for the bio-v1-replication repository.
+# Validate it before release:  pip install cffconvert  then  cffconvert --validate
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the archived software
+  (this file) and the accompanying preprint (preferred-citation below).
+type: software
+title: >-
+  bio-v1-replication: Reproducibility and sensitivity of a spiking V1 model
+  with triplet STDP and adaptive thresholds
+version: 1.0.0
+date-released: 2026-11-27
+doi: 10.5281/zenodo.24602903
+license: MIT
+repository-code: "https://github.com/SagarKarki-np/bio-v1-replication"
+authors:
+  - family-names: Karki
+    given-names: Sagar
+    affiliation: Independent researcher, Kathmandu, Nepal
+    orcid: "https://orcid.org/0009-0006-7556-5171"
+abstract: >-
+  Independent Python implementation of the biologically grounded spiking
+  model of primary visual cortex of Ruslim et al. (2025), with triplet
+  spike-timing-dependent plasticity and adaptive firing thresholds, built
+  from the published article and the released MATLAB demonstration code.
+  Includes experiment configurations for the demo-parameterized and
+  paper-derived branches across five target firing rates, and analysis code
+  for spike-triggered receptive fields, Gabor fitting, sparseness,
+  correlations, excitation-inhibition balance and homeostatic calibration.
+keywords:
+  - primary visual cortex
+  - spiking neural network
+  - spike-timing-dependent plasticity
+  - homeostasis
+  - sparse coding
+  - reproducibility
+  - spike-triggered average
+
+preferred-citation:
+  type: article
+  title: >-
+    Reproducibility and sensitivity of a spiking V1 model with triplet STDP
+    and adaptive thresholds
+  authors:
+    - family-names: Karki
+      given-names: Sagar
+      affiliation: Independent researcher, Kathmandu, Nepal
+      orcid: "https://orcid.org/0009-0006-7556-5171"
+  journal: bioRxiv
+  year: 2026
+  # doi: 10.1101/XXXX.XX.XX.XXXXXX   # uncomment and fill in after bioRxiv posts it
+  notes: Preprint, not peer reviewed.
+
+references:
+  - type: article
+    title: >-
+      Emergence of sparse coding, balance and decorrelation from a
+      biologically-grounded spiking neural network model of learning in the
+      primary visual cortex
+    authors:
+      - family-names: Ruslim
+        given-names: Marko A.
+      - family-names: Spencer
+        given-names: Martin J.
+      - family-names: Hogendoorn
+        given-names: Hinze
+      - family-names: Meffin
+        given-names: Hamish
+      - family-names: Lian
+        given-names: Yanbo
+      - family-names: Burkitt
+        given-names: Anthony N.
+    journal: PLOS Computational Biology
+    year: 2025
+    volume: 21
+    issue: 11
+    start: e1013644
+    doi: 10.1371/journal.pcbi.1013644
+  - type: software
+    title: bio-spiking-v1-learning
+    authors:
+      - family-names: Ruslim
+        given-names: Marko A.
+    repository-code: "https://github.com/marko-ruslim/bio-spiking-v1-learning"
